@@ -79,7 +79,7 @@ const SliderComp = ({ cards }) => {
     <div>
       <Slider {...settings} className="py-10">
         {images.map((item, index) => (
-          <div className="w-12 h-14">
+          <div className="w-12 h-14" key={index}>
             <Image
               key={index}
               className="w-full h-full"
@@ -91,7 +91,7 @@ const SliderComp = ({ cards }) => {
       </Slider>
       <Slider {...settings}>
         {images2.map((item, index) => (
-          <div className="w-12 h-14">
+          <div className="w-12 h-14" key={index}>
             <Image
               key={index}
               className="w-full h-full"

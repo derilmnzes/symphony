@@ -20,8 +20,10 @@ export const Layout = ({ children }) => {
           <ul className=" flex-row justify-between items-center w-2/5 hidden sm:flex">
             <li className="cursor-pointer"><FontAwesomeIcon icon={faPhone} />  +918390211188</li>
             <li className="cursor-pointer">
-            <FontAwesomeIcon className="mx-1"  icon={faWhatsapp} />
+          <a href="//api.whatsapp.com/send?phone=91MOBILE_NUMBER&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND">
+          <FontAwesomeIcon className="mx-1"  icon={faWhatsapp} />
             Whatsapp
+          </a>
           </li>
           <li className="cursor-pointer">
           <a href="mailto:symphonycoatings80@gmail.com">
