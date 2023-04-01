@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const Grid = () => {
+export default function Grid ()  {
 
   const images = [];
   for (let i = 17; i <= 67; i++) {
@@ -34,4 +34,3 @@ const Grid = () => {
   );
 }
 
-export default Grid;

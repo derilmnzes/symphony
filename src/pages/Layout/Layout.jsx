@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-export const Layout = ({ children }) => {
+export default function Layout({ children }){
   return (
     <>
       <header className="w-full fixed left-0 right-0 p-5 z-50 max-w-screen-xl m-auto bg-white">

@@ -74,7 +74,7 @@ var settings = {
   ]
 };
 
-const SliderComp = ({ cards }) => {
+export default function SliderComp({ cards }){
   return (
     <div>
       <Slider {...settings} className="py-10">
@@ -106,4 +106,4 @@ const SliderComp = ({ cards }) => {
   );
 };
 
-export default SliderComp;
+
