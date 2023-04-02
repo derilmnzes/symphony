@@ -8,7 +8,7 @@ import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-sv
 export default function Layout({ children }){
   return (
     <>
-      <header className="w-full fixed left-0 right-0 p-5 z-50 max-w-screen-xl m-auto bg-white">
+      <header className="max-w-screen-2xl m-auto w-full fixed left-0 right-0 p-5 z-50 max-w-screen-xl m-auto bg-white">
         <div className="w-full flex flex-row items-center justify-between">
         <div className="w-80 hidden sm:block">
             <Image src={logo} className="w-full h-full" />
@@ -20,7 +20,7 @@ export default function Layout({ children }){
           <ul className=" flex-row justify-between items-center w-2/5 hidden sm:flex">
             <li className="cursor-pointer"><FontAwesomeIcon icon={faPhone} />  +918390211188</li>
             <li className="cursor-pointer">
-          <a href="//api.whatsapp.com/send?phone=91MOBILE_NUMBER&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND">
+          <a href="//api.whatsapp.com/send?phone=+918390211188&text=Hii want to know more about symphony coatings">
           <FontAwesomeIcon className="mx-1"  icon={faWhatsapp} />
             Whatsapp
           </a>

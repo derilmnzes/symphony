@@ -24,7 +24,7 @@ export default function Grid ()  {
             <Image
               src={require(`../../../public/images/${image}`)}
               alt="Gallery image"
-              className="rounded-lg w-full h-full"
+              className="rounded-lg w-full h-full bg-fontColor "
            
             />
           </div>
